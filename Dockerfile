@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM debian:bullseye
 RUN apt update && apt upgrade
 RUN apt install -y openjdk-11-jdk maven
 RUN apt clean
